@@ -1,0 +1,8 @@
+@mixin imagen($image, $wid, $height, $marg, $size, $radius)
+{background-image: $image;
+width: $wid;
+height: $height;
+margin: $marg ;
+background-size: $size;
+border-radius: $radius;
+}
